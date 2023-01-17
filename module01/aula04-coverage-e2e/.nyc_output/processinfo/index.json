@@ -1,0 +1,1 @@
+{"processes":{"3802344f-73dd-4f69-8601-49fea3f2467d":{"parent":"70d4b244-3ab6-47c2-af61-1916ac925e30","children":[]},"70d4b244-3ab6-47c2-af61-1916ac925e30":{"parent":null,"children":["3802344f-73dd-4f69-8601-49fea3f2467d"]}},"files":{"/home/jean/www/expertjs/module01/aula04-coverage-e2e/api.js":["3802344f-73dd-4f69-8601-49fea3f2467d"]},"externalIds":{}}

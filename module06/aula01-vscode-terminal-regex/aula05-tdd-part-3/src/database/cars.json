@@ -1,0 +1,23 @@
+[
+  {
+    "id": "9df059c0-02af-48fa-b237-f7dc58d9ebbc",
+    "name": "Expedition",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "f70f829a-9669-4bba-bd14-35c498a5e99a",
+    "name": "Mercielago",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "2f5dbc23-0bbe-4e71-97e9-7949cc33b54c",
+    "name": "Model 3",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  }
+]

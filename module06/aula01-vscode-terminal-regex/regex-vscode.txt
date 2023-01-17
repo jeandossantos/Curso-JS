@@ -1,0 +1,20 @@
+seleciona cpf-like --> /^\d{3}.\d{3}.\d{3}-\d{2}$
+123.123.123-14
+321.123.345-20
+300.200.500-19
+
+[.-] seleciona . e -
+------------------------------------------
+Wendel, Erick
+Gomes, Laila
+Jonson, Jose
+
+seleciona com ^(\w+),\s(\w+)$ replace com {firstName: "$2, lastName: $1} 
+-------------------------------------------------------------------------------
+ O [Erick Wendel](https://erickwendel.com) faz palestras e você devia serguir lá no [Twitter](https://twitter.com) ou até no [Instagran](https://instagran.com/erickwendel_)
+
+Ah e você pode pesquisar no [Google](https://.google.com) ou 
+no [yahoo](https://www.yahoo.com)
+
+esse \[(.*?)\]\(([http!https].*?)\) por <a href="$2">$1<a/>
+vai que vai!
