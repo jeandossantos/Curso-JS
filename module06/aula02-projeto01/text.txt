@@ -1,0 +1,27 @@
+Pelo presente  instrumento particular de contrato de Prestação de Serviços, as partes
+abaixo qualificadas, resolvem ajustar as cláusulas seguintes:
+1° CONTRATANTE: Xuxa da Silva, brasileira, casada,CPF: 235.743.420-12, residente e
+domiciliada a rua dos bobos, zero, bairro Alphalline, São Paulo.
+2° CONTRATANTE:  Arya Robin, belga, casado, CPF: 884.112.200-12,residente e
+domiciliada a Av. Paulista, 1400, bairro Consolação, São Paulo.
+3° CONTRATADA: Júlia Menezes, brasileira, solteira,CPF: 297.947.800-81, residente e
+domiciliada a Av. dos Estados, 99, bairro Jardim, São Paulo.
+OBJETO DO CONTRATO
+Cláusula 01 -O presente contrato tem como objetivo o desenvolvimento de site, software e
+aplicativo Híbrido.
+Cláusula 02 -Serão de propriedade da CONTRATANTEtodos os programas, módulos
+manuais, documentação associada e sistemas, resultantes deste contrato, sendo proibido
+seu uso ou comercialização pela CONTRATADA.
+Cláusula 03 -O projeto será dividido em 4 (quatro)módulos quais sejam: Estabelecimento
+parceiro, Courrier, Cliente e Central)
+Cláusula 04 -Os CONTRATANTES serão responsáveispor definir os projetos a que se
+refere o item 1, especificando sua abrangência e prazo.
+Cláusula 05 -O presente trabalho trata-se de trabalhoautônomo de prestação de serviços,
+não havendo nenhum vínculo empregatício com os CONTRATANTES.
+PRAZO DE ENTREGA
+Cláusula 06 -As atividades de desenvolvimento serãoiniciados pela CONTRATADA no dia
+26 de fevereiro de 2018.
+Cláusula 07 -O prazo estabelecido para entrega finalserá de 3 (três) meses. Incluindo as
+fases de testes, integração e entrega de documentação.
+Cláusula 08 -Após a entrega de cada módulo este serátestado pelos CONTRATANTES e
+considerado finalizado após a aprovação dos testes.
