@@ -1,11 +1,9 @@
 const { describe, it, before, beforeEach, afterEach } = require('mocha');
-const Transaction = require('../../entities/transaction');
-
 const sinon = require('sinon');
 const { expect } = require('chai');
-
 const { join } = require('node:path');
 
+const Transaction = require('../../entities/transaction');
 const CarService = require('../../service/carService');
 
 const mocks = {
