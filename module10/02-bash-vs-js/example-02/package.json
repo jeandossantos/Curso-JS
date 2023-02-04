@@ -1,0 +1,16 @@
+{
+  "name": "example-02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "npx zx ./index.mjs"
+  },
+  "keywords": [],
+  "author": "jeandossantos",
+  "license": "ISC",
+  "dependencies": {
+    "safe-regex": "^2.1.1",
+    "zx": "^7.1.1"
+  }
+}
