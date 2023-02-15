@@ -22,16 +22,9 @@ const results = request.map(({ data }) => data);
 // writable Stream
 async function* writable(stream) {
   for await (const chunk of stream) {
-<<<<<<< HEAD
     const name = chunk.match(/:"(?<name>.*)(?=-)/).groups.name;
 
     console.log(`[${name.toLowerCase()}] ${chunk}`);
-=======
-    const data = chunk;
-    const name = data.match(/:"(?<name>.*)(?=-)/).groups.name;
-
-    console.log(`[${name.toLowerCase()}] ${data}`);
->>>>>>> e6584bea3b8876bf8c45635c9ad0958e4b7029d1
   }
 }
 
@@ -49,4 +42,3 @@ async function* merge(streams) {
 }
 
 await pipeline(merge(results), writable);
-//result[0].pipe(writable);
