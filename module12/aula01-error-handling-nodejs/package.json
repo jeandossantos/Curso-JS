@@ -1,0 +1,13 @@
+{
+  "name": "@jeandossantos/aula01-error-handling-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.server-error.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch 1.server-error.js"
+  },
+  "keywords": [],
+  "author": "jeandossantos",
+  "license": "ISC"
+}
