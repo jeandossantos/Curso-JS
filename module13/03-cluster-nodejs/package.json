@@ -1,0 +1,17 @@
+{
+  "name": "03-cluster-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node  src/server.js",
+    "autocannon": "sh bench.sh"
+  },
+  "keywords": [],
+  "author": "jeandossantos",
+  "license": "ISC",
+  "devDependencies": {
+    "autocannon": "^7.10.0"
+  }
+}
