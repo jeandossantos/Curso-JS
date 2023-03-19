@@ -4,29 +4,26 @@ import { Worker } from 'worker_threads';
 import { dirname } from 'path';
 //precisa ser importado antes de usar no worker_threads no sharp dessa função
 import sharp from 'sharp';
-import { Piscina } from 'piscina';
+import workerPool from 'workerpool';
 
 const currentFolder = dirname(fileURLToPath(import.meta.url));
 const workerName = 'worker.js';
+const pool = workerPool.pool(`${currentFolder}/${workerName}`);
 
 async function combineImages(images) {
   const abortController = new AbortController();
   const { signal } = abortController;
 
-  const piscina = new Piscina({
-    filename: `${currentFolder}/${workerName}`,
-    maxQueue: 'auto',
-    maxThreads: 4,
-  });
+  try {
+    const result = await pool.exec('onMessage', [images], {
+      on: (msg) => console.log(msg),
+    });
 
-  piscina.on('drain', () => {
-    console.log('drain');
-  });
-  const result = await piscina.run(images, {
-    signal,
-  });
-
-  return result;
+    await pool.terminate();
+    return result;
+  } catch (error) {
+    console.log(error.message);
+  }
 
   //   return new Promise((resolve, reject) => {
   //     const worker = new Worker(`${currentFolder}/${workerName}`);

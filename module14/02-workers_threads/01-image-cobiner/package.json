@@ -14,6 +14,7 @@
     "autocannon": "^7.10.0",
     "axios": "^0.24.0",
     "piscina": "^3.2.0",
-    "sharp": "^0.29.3"
+    "sharp": "^0.29.3",
+    "workerpool": "^6.4.0"
   }
 }
